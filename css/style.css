@@ -198,7 +198,7 @@ a {
 /*-----------------------------------------------*/
 
 /*----------------Pantalla XXSmall xxs-------------*/
-@media(max-width: 567px){
+@media(max-width: 567px) and (min-width: 440px){
     .col-xxs-12{
         width: 100%;
         padding: 10px 20px 0px 40px;
@@ -219,6 +219,40 @@ a {
     .col-xxs-2m{width: 25%;}
     .col-xxs-1{width: 10%;}
     .col-xxs-1m{
+        width: 5%;
+        height: 20px;
+        /* padding: 10px 380px 0px 30px; */
+    }
+}
+/*-----------------------------------------------*/
+/*----------------Pantalla XXXSmall xxxs-------------*/
+@media(max-width: 439px){
+    .col-xxxs-12{
+        width: 100%;
+        padding: 10px 20px 0px 25px;
+    }
+    .col-xxxs-9{width: 90%;}
+    .col-xxxs-9m{width: 95%;}
+    .col-xxxs-8{
+        width: 70%;
+        padding: 15px 20px 0px 30px;
+    }
+    .col-xxxs-7{width: 60%;}
+    .col-xxxs-7m{
+        width: 65%;
+        padding: 15px 20px 0px 42px;
+    }
+    .col-xxxs-6{width: 50%;}
+    .col-xxxs-5{width: 40%;}
+    .col-xxxs-4{width: 33,33333333%;}
+    .col-xxxs-3{width: 25%;}
+    .col-xxxs-2{width: 20%;}
+    .col-xxxs-2m{
+        width: 25%;
+        padding: 5px 0px 0px 0px;
+    }
+    .col-xxxs-1{width: 10%;}
+    .col-xxxs-1m{
         width: 5%;
         height: 20px;
         /* padding: 10px 380px 0px 30px; */
