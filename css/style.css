@@ -1,12 +1,12 @@
-@font-face{
-    font-family: roboto-condensed;
-    src:url(../css/roboto-condensed-regular.ttf);
-}
+/* @font-face{
+    font-family: SegoeSpetial;
+    src:url(../css/segoe-condensed.ttf);
+} */
 
 *{
     margin: 0px;
     padding: 0px;
-    font-family: roboto-condensed, sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
     text-decoration: none;
     box-sizing: border-box;
     list-style-type:none;
@@ -138,10 +138,7 @@ a {
     .col-lg-4{width: 33,33333333%;}
     .col-lg-3{width: 25%;}
     .col-lg-2{width: 20%;}
-    .col-lg-1{
-        width: 10%;
-        height: 182px;
-    }
+    .col-lg-1{width: 10%;}
 }
 
 /*----------------Pantalla Media md-------------*/
@@ -154,10 +151,7 @@ a {
     .col-md-4{width: 33,33333333%;}
     .col-md-3{width: 25%;}
     .col-md-2{width: 20%;}
-    .col-md-1{
-        width: 10%;
-        height: 182px;
-    }
+    .col-md-1{width: 10%;}
 }
 
 /*----------------Pantalla Small sm-------------*/
@@ -170,118 +164,46 @@ a {
     .col-sm-4{width: 33,33333333%;}
     .col-sm-3{width: 25%;}
     .col-sm-2{width: 20%;}
-    .col-sm-1{
-        width: 10%;
-        height: 182px;
-    }
+    .col-sm-1{width: 10%;}
 }
 
 /*----------------Pantalla XSmall xs-------------*/
-@media(max-width: 767px) and (min-width: 568px){
+@media(max-width: 767px){
     .col-xs-12{width: 100%;}
     .col-xs-9{width: 90%;}
-    .col-xs-9m{width: 95%;}
     .col-xs-7{width: 60%;}
-    .col-xs-7m{width: 65%;}
     .col-xs-6{width: 50%;}
     .col-xs-5{width: 40%;}
     .col-xs-4{width: 33,33333333%;}
     .col-xs-3{width: 25%;}
     .col-xs-2{width: 20%;}
-    .col-xs-2m{width: 25%;}
     .col-xs-1{width: 10%;}
-    .col-xs-1m{
-        width: 5%;
-        height: 182px;
-    }
 }
-/*-----------------------------------------------*/
 
-/*----------------Pantalla XXSmall xxs-------------*/
-@media(max-width: 567px) and (min-width: 440px){
-    .col-xxs-12{
-        width: 100%;
-        padding: 10px 20px 0px 40px;
-    }
-    .col-xxs-9{width: 90%;}
-    .col-xxs-9m{width: 95%;}
-    .col-xxs-8{
-        width: 70%;
-        padding: 15px 20px 0px 30px;
-    }
-    .col-xxs-7{width: 60%;}
-    .col-xxs-7m{width: 65%;}
-    .col-xxs-6{width: 50%;}
-    .col-xxs-5{width: 40%;}
-    .col-xxs-4{width: 33,33333333%;}
-    .col-xxs-3{width: 25%;}
-    .col-xxs-2{width: 20%;}
-    .col-xxs-2m{width: 25%;}
-    .col-xxs-1{width: 10%;}
-    .col-xxs-1m{
-        width: 5%;
-        height: 20px;
-        /* padding: 10px 380px 0px 30px; */
-    }
-}
-/*-----------------------------------------------*/
-/*----------------Pantalla XXXSmall xxxs-------------*/
-@media(max-width: 439px){
-    .col-xxxs-12{
-        width: 100%;
-        padding: 10px 20px 0px 25px;
-    }
-    .col-xxxs-9{width: 90%;}
-    .col-xxxs-9m{width: 95%;}
-    .col-xxxs-8{
-        width: 70%;
-        padding: 15px 20px 0px 30px;
-    }
-    .col-xxxs-7{width: 60%;}
-    .col-xxxs-7m{
-        width: 65%;
-        padding: 15px 20px 0px 42px;
-    }
-    .col-xxxs-6{width: 50%;}
-    .col-xxxs-5{width: 40%;}
-    .col-xxxs-4{width: 33,33333333%;}
-    .col-xxxs-3{width: 25%;}
-    .col-xxxs-2{width: 20%;}
-    .col-xxxs-2m{
-        width: 25%;
-        padding: 5px 0px 0px 0px;
-    }
-    .col-xxxs-1{width: 10%;}
-    .col-xxxs-1m{
-        width: 5%;
-        height: 20px;
-        /* padding: 10px 380px 0px 30px; */
-    }
-}
 /*-----------------------------------------------*/
 
 #f1{
-    height: 30px; /*59px; */
+    height: 59px;
 }
 
 #f2{
-    height: 20px; /*59px;*/
+    height: 59px;
 }
 
 #f3{
     height: 182px;
 }
 
-.f3b{
+#f3b{
     height: 160px;
     color: rgba(255, 255, 255, 0.877);
     text-align: left;
-    /* padding: 10px 380px 0px 30px; */
+    padding: 30px;
 }
 
-/* #f3c{
+#f3c{
     height: 182px;
-} */
+}
 
 #f4{
     height: 46px;
