@@ -3,3 +3,5 @@
 #25-08-2020 Se cargaron cambios a CvOnlineOrg.
 
 #22-09-2020 Se mejoro el sistema colocando la imagen en el div.contenedor y se cargo un Preloader.
+
+#16-01-2022 Se actulizo imagen de CV y links de direcciones de proyectos.
