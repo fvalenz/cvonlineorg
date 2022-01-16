@@ -171,6 +171,11 @@
 
   /* ---------------------------------------- */
 
+img{
+    border-radius: 6px;
+    width: 30%;
+}
+
 .contenedor{
     position: relative;
     margin: auto;
