@@ -245,6 +245,10 @@ a {
     .col-md-3{width: 25%;}
     .col-md-2{width: 20%;}
     .col-md-1{width: 10%;}
+    img{
+        border-radius: 2px;
+        width: 70%;
+    }
 }
 
 /*----------------Pantalla Small sm-------------*/
@@ -258,6 +262,10 @@ a {
     .col-sm-3{width: 25%;}
     .col-sm-2{width: 20%;}
     .col-sm-1{width: 10%;}
+    img{
+        border-radius: 2px;
+        width: 80%;
+    }
 }
 
 /*----------------Pantalla XSmall xs-------------*/
@@ -271,6 +279,10 @@ a {
     .col-xs-3{width: 25%;}
     .col-xs-2{width: 20%;}
     .col-xs-1{width: 10%;}
+    img{
+        border-radius: 2px;
+        width: 85%;
+    }
 }
 
 /*-----------------------------------------------*/
